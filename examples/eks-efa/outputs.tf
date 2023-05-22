@@ -1,5 +1,5 @@
 output "eks_cluster_id" {
-  description = "The name of the EKS cluster."
+  description = "Test EKS cluster."
   value       = module.eks.cluster_id
 }
 
